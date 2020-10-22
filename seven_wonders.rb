@@ -1,5 +1,9 @@
 require 'httparty'
+require 'dotenv'
 require "awesome_print"
+
+
+Dotenv.load
 
 BASE_URL = "THE BASE URL FOR THE API REQUEST"
 LOCATION_IQ_KEY = "YOUR API TOKEN"
